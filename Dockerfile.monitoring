@@ -1,0 +1,4 @@
+# Container 1: Monitoring container
+FROM python:3.9
+COPY monitor.py /app/monitor.py
+CMD ["python", "/app/monitor.py"]

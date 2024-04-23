@@ -1,0 +1,4 @@
+# Container 2: Python process Container
+FROM python:3.9
+COPY sample.py /app/sample.py
+CMD ["python", "/app/sample.py"]
